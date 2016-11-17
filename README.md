@@ -237,6 +237,11 @@ Usage: elasticdump --input SOURCE --output DESTINATION [OPTIONS]
                     When using Amazon Elasticsearch Service proteced by
                     AWS Identity and Access Management (IAM), provide
                     your Access Key ID and Secret Access Key
+
+--resume
+                    Attempt to resume scroll of last dump using this index
+                    using the saved scroll_id
+
 --help
                     This page
 ```
